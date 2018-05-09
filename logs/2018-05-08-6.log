@@ -1,0 +1,201 @@
+[20:19:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:19:37] [main/INFO] [FML]: Forge Mod Loader version 14.23.3.2655 for Minecraft 1.12.2 loading
+[20:19:37] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_151
+[20:19:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.9.22_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:19:37] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:19:37] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[20:19:37] [main/WARN] [FML]: The coremod com.creativemd.itemphysic.ItemPatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:19:37] [main/WARN] [FML]: The coremod ItemPatchingLoader (com.creativemd.itemphysic.ItemPatchingLoader) is not signed!
+[20:19:37] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.4-123.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:19:37] [main/WARN] [FML]: The coremod vazkii.quark.base.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:19:37] [main/WARN] [FML]: The coremod LoadingPlugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[20:19:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:19:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:19:38] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:19:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:19:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:19:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:19:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:19:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:19:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:19:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:19:39] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[20:19:39] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[20:19:39] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:39] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[20:19:39] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:19:40] [main/INFO] [STDOUT]: [com.creativemd.creativecore.transformer.CreativeTransformer:transform:52]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[20:19:40] [main/INFO] [STDOUT]: [com.creativemd.creativecore.transformer.CreativeTransformer:transform:52]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Transforming BlockPistonBase
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [doMove, func_176319_a, a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z / (Lamu;Let;Lfa;Z)Z)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node ASTORE 11
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [canPush, func_185646_a, a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z / (Lawt;Lamu;Let;Lfa;ZLfa;)Z)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL aow.hasTileEntity (Lawt;)Z
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Transforming TileEntityPiston
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f, j] Descriptor ()V / ()V)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [update, func_73660_a, e] Descriptor ()V / ()V)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Transforming EntityBoat
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [attackEntityFrom, func_70097_a, a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z / (Lur;F)Z)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node POP
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [onUpdate, func_70071_h_, B_] Descriptor ()V / ()V)
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[20:19:41] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[20:19:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:19:45] [Server thread/INFO] [FML]: MinecraftForge v14.23.3.2655 Initialized
+[20:19:45] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:19:45] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[20:19:46] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[20:19:46] [Server thread/INFO] [FML]: Searching E:\Servers\1.12.2\mods for mods
+[20:19:47] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'moartinkers' with dependency string 'after:EnderIO'. The modId 'EnderIO' must be all lowercase.
+[20:19:47] [Server thread/ERROR] [FML]: Unable to parse dependency for mod 'moartinkers' with dependency string 'after:ProjectE'. The modId 'ProjectE' must be all lowercase.
+[20:19:47] [Server thread/WARN] [FML]: Mod moartinkers is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.5.4
+[20:19:48] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
+[20:19:48] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:19:48] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[20:19:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, itemphysic, autoreglib, baubles, creativecore, mantle, moartinkers, playerrevive, plustic, quark, tconstruct, tinkersaddons, twilightforest] at CLIENT
+[20:19:48] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, itemphysic, autoreglib, baubles, creativecore, mantle, moartinkers, playerrevive, plustic, quark, tconstruct, tinkersaddons, twilightforest] at SERVER
+[20:19:52] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[20:19:52] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[20:19:52] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[20:19:52] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[20:19:52] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[20:19:52] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[20:19:53] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:19:53] [Server thread/INFO] [FML]: Found 1384 ObjectHolder annotations
+[20:19:53] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:19:53] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:19:53] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:19:53] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module building is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module misc is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module world is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module client is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module tweaks is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module decoration is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module vanity is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module automation is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module experimental is enabled
+[20:19:54] [Server thread/INFO] [FML]: [Quark] Module management is enabled
+[20:19:56] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[20:19:56] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:19:57] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `endermagnetic`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/ERROR] [FML]: Trying to activate the universal filled bucket too late. Call it statically in your Mods class. Mod: Moar Tinkers
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `enderference`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `insatiable`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `magnetic`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `momentum`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `dot`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:19:58] [Server thread/INFO] [FML]: Potentially Dangerous alternative prefix `tconstruct` for name `splinter`, expected `moartinkers`. This could be a intended override, but in most cases indicates a broken mod.
+[20:20:00] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Chisel.
+[20:20:00] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Just Enough Items.
+[20:20:00] [Server thread/INFO] [twilightforest]: twilightforest has loaded compatibility for mod Tinkers' Construct.
+[20:20:00] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Thaumcraft.
+[20:20:02] [Server thread/WARN] [FML]: A mod has attempted to assign Block Block{null} to the Fluid 'fierymetal' but this Fluid has already been linked to the Block Block{tconstruct:molten_fierymetal}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[20:20:02] [Server thread/WARN] [FML]: A mod has attempted to assign Block Block{null} to the Fluid 'knightmetal' but this Fluid has already been linked to the Block Block{tconstruct:molten_knightmetal}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[20:20:02] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:02] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:02] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:02] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:02] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:02] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:02] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:02] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:02] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:20:02] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:20:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:20:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:20:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:20:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:20:03] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[20:20:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:04] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:04] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:04] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:20:04] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:20:06] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
+[20:20:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:20:06] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:20:06] [Server thread/INFO] [FML]: Applying holder lookups
+[20:20:06] [Server thread/INFO] [FML]: Holder lookups applied
+[20:20:07] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@608abff)
+[20:20:08] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 523 advancements
+[20:20:08] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@608abff)
+[20:20:09] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@608abff)
+[20:20:09] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@608abff)
+[20:20:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:20:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[20:20:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 20%
+[20:20:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 38%
+[20:20:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%
+[20:20:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8,097s)! For help, type "help" or "?"
+[20:20:15] [Server thread/INFO] [FML]: Unloading dimension 7
+[20:20:15] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:20:15] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:21:46] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[20:21:46] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 22 mods : minecraft@1.12.2,tconstruct@1.12.2-2.10.0.71,FML@8.0.99.99,ambientsounds@2.0.0,realrender@1.0.1,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.9.9,moartinkers@0.5.4,itemphysic@1.4.0,jei@4.9.1.175,tinkersjei@1.0,forge@14.23.3.2655,plustic@6.4.0.0,quark@r1.4-123,mantle@1.12-1.3.2.24,twilightforest@3.6.398,playerrevive@1.0,xaerominimap@1.14.9.1,mcp@9.42,tinkersaddons@1.0.7,autoreglib@1.3-17
+[20:21:50] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:21:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Fortes[/25.45.22.93:57602] logged in with entity id 488 at (112.1692678329375, 69.0, 305.5976089764735)
+[20:21:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFortes§r§e joined the game§r
+[20:28:20] [Netty Server IO #4/INFO] [FML]: Client protocol version 2
+[20:28:20] [Netty Server IO #4/INFO] [FML]: Client attempting to join with 22 mods : minecraft@1.12.2,tconstruct@1.12.2-2.10.0.71,FML@8.0.99.99,ambientsounds@2.0.0,realrender@1.0.1,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.9.9,moartinkers@0.5.4,itemphysic@1.4.0,jei@4.9.1.175,tinkersjei@1.0,forge@14.23.3.2655,plustic@6.4.0.0,quark@r1.4-123,mantle@1.12-1.3.2.24,twilightforest@3.6.398,playerrevive@1.0,xaerominimap@1.14.9.1,mcp@9.42,tinkersaddons@1.0.7,autoreglib@1.3-17
+[20:28:22] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:28:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Fyro[/127.0.0.1:50207] logged in with entity id 5553 at (134.30000001192093, 67.0, 281.85285100908436)
+[20:28:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFyro§r§e joined the game§r
+[20:28:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rÎõóåííî çàø¸ë§r
+[20:28:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §ráëèí, àêêóðàòíåå§r
+[20:28:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rÒóò æå êðèïåð âçîðàâàëñÿ§r
+[20:28:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §rÒû çàø¸ë§r
+[20:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §rÈ äà§r
+[20:29:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rÒû ãäå§r
+[20:29:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §ríà äåðåâå§r
+[20:30:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rÿ òðåáóþ ïóòèíà§r
+[20:30:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §rÍóæíî ïîêà ÷òî íî÷ü ïåðåæèòü§r
+[20:30:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §ríà âåðòîë¸òèêå ïîëåòàö§r
+[20:30:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §rÏîòîì ìåñòî èñêàòü§r
+[20:31:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Fyro is bleeding ...§r
+[20:31:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rààààà§r
+[20:31:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rñïàñè§r
+[20:31:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §råù¸ 30 ñåê§r
+[20:31:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Fortes is bleeding ...§r
+[20:31:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFyro§r> §rõîðîøèé ñòàðò§r
+[20:31:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Fyro§r died§r
+[20:31:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <§rFortes§r> §rÄà§r
+[20:31:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Fortes lost connection: Disconnected
+[20:31:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFortes§r§e left the game§r
+[20:31:51] [Server thread/WARN] [twilightforest]: Mod was keeping inventory items in reserve for player %s but they logged out!  Items are being dropped.
+[20:31:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Fortes§r died§r
+[20:31:56] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Fyro lost connection: Disconnected
+[20:31:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFyro§r§e left the game§r
+[20:32:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server§r
+[20:32:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:32:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:32:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:32:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[20:32:02] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:32:03] [Server thread/INFO] [FML]: Applying holder lookups
+[20:32:03] [Server thread/INFO] [FML]: Holder lookups applied
+[20:32:03] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:32:03] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players

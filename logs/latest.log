@@ -1,0 +1,380 @@
+[12:51:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[12:51:57] [main/INFO] [FML]: Forge Mod Loader version 14.23.3.2655 for Minecraft 1.12.2 loading
+[12:51:57] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_151
+[12:51:57] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.9.22_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:51:57] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:51:57] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[12:51:57] [main/WARN] [FML]: The coremod com.creativemd.itemphysic.ItemPatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:51:57] [main/WARN] [FML]: The coremod ItemPatchingLoader (com.creativemd.itemphysic.ItemPatchingLoader) is not signed!
+[12:51:57] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.4-123.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[12:51:57] [main/WARN] [FML]: The coremod vazkii.quark.base.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:51:57] [main/WARN] [FML]: The coremod LoadingPlugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[12:51:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:51:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:51:59] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:51:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:51:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:51:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:51:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:51:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:52:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:52:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:52:00] [main/INFO] [FML]: [Quark ASM] Transforming WorldServer
+[12:52:00] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e, g] Descriptor ()Z / ()Z)
+[12:52:00] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:00] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[12:52:00] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:00] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:52:00] [main/INFO] [STDOUT]: [com.creativemd.creativecore.transformer.CreativeTransformer:transform:52]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[12:52:00] [main/INFO] [STDOUT]: [com.creativemd.creativecore.transformer.CreativeTransformer:transform:52]: [itemphysic] Patched net.minecraft.entity.item.EntityItem ...
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Transforming BlockPistonBase
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [doMove, func_176319_a, a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z / (Lamu;Let;Lfa;Z)Z)
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located patch target node ASTORE 11
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [canPush, func_185646_a, a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z / (Lawt;Lamu;Let;Lfa;ZLfa;)Z)
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL aow.hasTileEntity (Lawt;)Z
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Transforming TileEntityPiston
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f, j] Descriptor ()V / ()V)
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [update, func_73660_a, e] Descriptor ()V / ()V)
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Located patch target node INVOKEVIRTUAL amu.a (Let;Lawt;I)Z
+[12:52:01] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Transforming EntityBoat
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [attackEntityFrom, func_70097_a, a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z / (Lur;F)Z)
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Located patch target node POP
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Applying Transformation to method (Names [onUpdate, func_70071_h_, B_] Descriptor ()V / ()V)
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Located Method, patching...
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Located patch target node L0
+[12:52:02] [main/INFO] [FML]: [Quark ASM] Patch result: true
+[12:52:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[12:52:04] [Server thread/INFO] [FML]: MinecraftForge v14.23.3.2655 Initialized
+[12:52:04] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:52:04] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[12:52:05] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:52:05] [Server thread/INFO] [FML]: Searching E:\Servers\1.12.2\mods for mods
+[12:52:21] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
+[12:52:22] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[12:52:22] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[12:52:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, itemphysic, autoreglib, baubles, creativecore, mantle, playerrevive, quark, tconstruct, tinkersaddons, twilightforest] at CLIENT
+[12:52:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, itemphysic, autoreglib, baubles, creativecore, mantle, playerrevive, quark, tconstruct, tinkersaddons, twilightforest] at SERVER
+[12:52:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[12:52:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[12:52:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[12:52:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[12:52:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[12:52:35] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[12:52:36] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[12:52:36] [Server thread/INFO] [FML]: Found 1379 ObjectHolder annotations
+[12:52:36] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[12:52:36] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[12:52:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[12:52:37] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[12:52:41] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[12:52:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module world is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module building is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module automation is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module misc is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module tweaks is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module management is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module experimental is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module vanity is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module decoration is enabled
+[12:52:41] [Server thread/INFO] [FML]: [Quark] Module client is enabled
+[12:52:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[12:52:51] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Chisel.
+[12:52:51] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Just Enough Items.
+[12:52:51] [Server thread/INFO] [twilightforest]: twilightforest has loaded compatibility for mod Tinkers' Construct.
+[12:52:51] [Server thread/INFO] [twilightforest]: twilightforest has skipped compatibility for mod Thaumcraft.
+[12:52:53] [Server thread/WARN] [FML]: A mod has attempted to assign Block Block{null} to the Fluid 'fierymetal' but this Fluid has already been linked to the Block Block{tconstruct:molten_fierymetal}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[12:52:53] [Server thread/WARN] [FML]: A mod has attempted to assign Block Block{null} to the Fluid 'knightmetal' but this Fluid has already been linked to the Block Block{tconstruct:molten_knightmetal}. You may have duplicate Fluid Blocks as a result. It *may* be possible to configure your mods to avoid this.
+[12:52:53] [Server thread/INFO] [FML]: Applying holder lookups
+[12:52:53] [Server thread/INFO] [FML]: Holder lookups applied
+[12:52:55] [Server thread/INFO] [FML]: Applying holder lookups
+[12:52:55] [Server thread/INFO] [FML]: Holder lookups applied
+[12:52:56] [Server thread/INFO] [FML]: Applying holder lookups
+[12:52:56] [Server thread/INFO] [FML]: Holder lookups applied
+[12:52:56] [Server thread/INFO] [FML]: Applying holder lookups
+[12:52:56] [Server thread/INFO] [FML]: Holder lookups applied
+[12:52:56] [Server thread/INFO] [FML]: Injecting itemstacks
+[12:52:56] [Server thread/INFO] [FML]: Itemstack injection complete
+[12:52:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[12:52:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[12:52:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[12:52:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[12:52:56] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[12:52:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:52:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[12:52:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:52:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:53:02] [Server thread/INFO] [FML]: Applying holder lookups
+[12:53:02] [Server thread/INFO] [FML]: Holder lookups applied
+[12:53:03] [Server thread/INFO] [FML]: Injecting itemstacks
+[12:53:03] [Server thread/INFO] [FML]: Itemstack injection complete
+[12:53:04] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 15 mods
+[12:53:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[12:53:06] [Server thread/ERROR] [net.minecraft.world.storage.SaveFormatOld]: Exception reading .\world\level.dat
+net.minecraft.util.ReportedException: Loading NBT data
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:31) ~[gi.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.func_186353_a(SaveFormatOld.java:101) [bfc.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.func_75803_c(SaveFormatOld.java:83) [bfc.class:?]
+	at net.minecraft.world.chunk.storage.AnvilSaveConverter.func_75801_b(SourceFile:96) [bez.class:?]
+	at net.minecraft.server.MinecraftServer.func_71237_c(MinecraftServer.java:176) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:224) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: java.util.zip.ZipException: invalid distance too far back
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.util.zip.GZIPInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.DataInputStream.readInt(Unknown Source) ~[?:1.8.0_151]
+	at net.minecraft.nbt.NBTTagInt.func_152446_a(SourceFile:31) ~[gd.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	... 21 more
+[12:53:06] [Server thread/ERROR] [net.minecraft.world.storage.SaveFormatOld]: Exception reading .\world\level.dat_old
+net.minecraft.util.ReportedException: Loading NBT data
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:31) ~[gi.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.func_186353_a(SaveFormatOld.java:101) [bfc.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.func_75803_c(SaveFormatOld.java:92) [bfc.class:?]
+	at net.minecraft.world.chunk.storage.AnvilSaveConverter.func_75801_b(SourceFile:96) [bez.class:?]
+	at net.minecraft.server.MinecraftServer.func_71237_c(MinecraftServer.java:176) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:224) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: java.util.zip.ZipException: invalid distance too far back
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.util.zip.GZIPInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.DataInputStream.readInt(Unknown Source) ~[?:1.8.0_151]
+	at net.minecraft.nbt.NBTTagInt.func_152446_a(SourceFile:31) ~[gd.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	... 21 more
+[12:53:06] [Server thread/ERROR] [net.minecraft.world.storage.SaveFormatOld]: Exception reading .\world\level.dat
+net.minecraft.util.ReportedException: Loading NBT data
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:31) ~[gi.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.loadAndFix(SaveFormatOld.java:117) [bfc.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:122) [bfb.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:228) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: java.util.zip.ZipException: invalid distance too far back
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.util.zip.GZIPInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.DataInputStream.readInt(Unknown Source) ~[?:1.8.0_151]
+	at net.minecraft.nbt.NBTTagInt.func_152446_a(SourceFile:31) ~[gd.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	... 19 more
+[12:53:06] [Server thread/ERROR] [net.minecraft.world.storage.SaveFormatOld]: Exception reading .\world\level.dat_old
+net.minecraft.util.ReportedException: Loading NBT data
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:505) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagList.func_152446_a(NBTTagList.java:63) ~[ge.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152446_a(NBTTagCompound.java:58) ~[fy.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152455_a(CompressedStreamTools.java:133) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:88) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:31) ~[gi.class:?]
+	at net.minecraft.world.storage.SaveFormatOld.loadAndFix(SaveFormatOld.java:117) [bfc.class:?]
+	at net.minecraft.world.storage.SaveHandler.func_75757_d(SaveHandler.java:132) [bfb.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:228) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: java.util.zip.ZipException: invalid distance too far back
+	at java.util.zip.InflaterInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.util.zip.GZIPInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_151]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_151]
+	at java.io.DataInputStream.readInt(Unknown Source) ~[?:1.8.0_151]
+	at net.minecraft.nbt.NBTTagInt.func_152446_a(SourceFile:31) ~[gd.class:?]
+	at net.minecraft.nbt.NBTTagCompound.func_152449_a(NBTTagCompound.java:496) ~[fy.class:?]
+	... 19 more
+[12:53:07] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4df2c518)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: java.util.zip.ZipException: Not in GZIP format
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.readHeader(Unknown Source)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:26)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.world.storage.MapStorage.func_75742_a(SourceFile:49)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.world.WorldServer.func_175643_b(WorldServer.java:131)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:298)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484)
+[12:53:07] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.lang.Thread.run(Unknown Source)
+[12:53:09] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 523 advancements
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: java.util.zip.ZipException: Not in GZIP format
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.readHeader(Unknown Source)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.util.zip.GZIPInputStream.<init>(Unknown Source)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.nbt.CompressedStreamTools.func_74796_a(CompressedStreamTools.java:26)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.world.storage.MapStorage.func_75742_a(SourceFile:49)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.world.World.initCapabilities(World.java:3970)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.world.WorldServer.func_175643_b(WorldServer.java:173)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:298)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484)
+[12:53:09] [Server thread/INFO] [STDERR]: [net.minecraft.world.storage.MapStorage:func_75742_a:55]: 	at java.lang.Thread.run(Unknown Source)
+[12:53:14] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@4df2c518)
+[12:53:14] [Server thread/INFO] [twilightforest]: Loaded a world with the tfEnforcedProgression game rule not defined.  Defining it.
+[12:53:15] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4df2c518)
+[12:53:15] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4df2c518)
+[12:53:15] [Server thread/WARN] [FML]: Unable to read forced chunk data at E:\Servers\1.12.2\.\world\forcedchunks.dat - it will be ignored
+java.io.IOException: Root tag must be a named compound tag
+	at net.minecraft.nbt.CompressedStreamTools.func_152456_a(CompressedStreamTools.java:96) ~[gi.class:?]
+	at net.minecraft.nbt.CompressedStreamTools.func_74797_a(CompressedStreamTools.java:174) ~[gi.class:?]
+	at net.minecraftforge.common.ForgeChunkManager.loadWorld(ForgeChunkManager.java:490) [ForgeChunkManager.class:?]
+	at net.minecraftforge.common.ForgeInternalHandler.onDimensionLoad(ForgeInternalHandler.java:70) [ForgeInternalHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_74_ForgeInternalHandler_onDimensionLoad_Load.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179) [EventBus.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:309) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:484) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[12:53:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[12:53:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 4%
+[12:53:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 11%
+[12:53:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[12:53:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[12:53:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%
+[12:53:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 40%
+[12:53:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
+[12:53:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
+[12:53:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 53%
+[12:53:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 63%
+[12:53:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[12:53:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%
+[12:53:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 74%
+[12:53:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 83%
+[12:53:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%
+[12:53:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%
+[12:53:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (28,038s)! For help, type "help" or "?"
+[12:53:33] [Server Watchdog/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.IllegalArgumentException: timeout value is negative
+[12:53:33] [Server Watchdog/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.Thread.sleep(Native Method)
+[12:53:33] [Server Watchdog/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:83)
+[12:53:33] [Server Watchdog/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.Thread.run(Unknown Source)
+[12:53:33] [Server thread/INFO] [FML]: Unloading dimension 7
+[12:53:34] [Server thread/INFO] [FML]: Unloading dimension -1
+[12:53:34] [Server thread/INFO] [FML]: Unloading dimension 1
+[12:53:37] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3409ms behind, skipping 68 tick(s)
+[12:54:21] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2040ms behind, skipping 40 tick(s)
+[12:56:26] [Server thread/ERROR] [net.minecraft.advancements.PlayerAdvancements]: Couldn't parse player advancements in .\world\advancements\981e18d2-96c2-3903-b6c1-7d9c3cb1268f.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at net.minecraft.util.JsonUtils.func_193838_a(SourceFile:506) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193837_a(SourceFile:512) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193840_a(SourceFile:527) ~[rc.class:?]
+	at net.minecraft.advancements.PlayerAdvancements.func_192740_f(PlayerAdvancements.java:130) [np.class:?]
+	at net.minecraft.advancements.PlayerAdvancements.<init>(PlayerAdvancements.java:56) [np.class:?]
+	at net.minecraft.server.management.PlayerList.func_192054_h(PlayerList.java:1136) [pl.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:183) [oq.class:?]
+	at net.minecraft.server.management.PlayerList.func_148545_a(PlayerList.java:503) [pl.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_147326_c(NetHandlerLoginServer.java:135) [pc.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.func_73660_a(NetHandlerLoginServer.java:63) [pc.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:285) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:180) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:396) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:666) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:524) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[JsonReader.class:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:161) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at net.minecraft.util.JsonUtils.func_193838_a(SourceFile:504) ~[rc.class:?]
+	... 16 more
+[12:56:26] [Server thread/WARN] [net.minecraft.world.storage.SaveHandler]: Failed to load player data for Fyro
+[12:56:26] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[12:56:27] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 19 mods : minecraft@1.12.2,tconstruct@1.12.2-2.10.0.71,FML@8.0.99.99,realrender@1.0.1,baubles@1.5.2,creativecoredummy@1.0.0,creativecore@1.9.9,itemphysic@1.4.0,jei@4.9.1.175,tinkersjei@1.0,forge@14.23.3.2655,quark@r1.4-123,mantle@1.12-1.3.2.24,twilightforest@3.6.398,playerrevive@1.0,xaerominimap@1.14.9.1,mcp@9.42,tinkersaddons@1.0.7,autoreglib@1.3-17
+[12:56:28] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[12:56:28] [Server thread/WARN] [net.minecraft.world.storage.SaveHandler]: Failed to load player data for Fyro
+[12:56:28] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Fyro[/127.0.0.1:50041] logged in with entity id 1908 at (269.5, 65.0, 133.5)
+[12:56:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFyro§r§e joined the game§r
+[12:56:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2773ms behind, skipping 55 tick(s)
+[12:57:08] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 17495ms behind, skipping 349 tick(s)
+[12:57:11] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2037ms behind, skipping 40 tick(s)
+[12:57:26] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2059ms behind, skipping 41 tick(s)
+[12:59:09] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2543ms behind, skipping 50 tick(s)
+[12:59:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2649ms behind, skipping 52 tick(s)
+[12:59:52] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2103ms behind, skipping 42 tick(s)
+[13:00:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Fyro lost connection: Disconnected
+[13:00:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: §eFyro§r§e left the game§r
+[13:00:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server§r
+[13:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:00:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[13:00:14] [Server thread/INFO] [FML]: Unloading dimension 0
+[13:00:15] [Server thread/INFO] [FML]: Applying holder lookups
+[13:00:15] [Server thread/INFO] [FML]: Holder lookups applied
+[13:00:15] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:00:15] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:00:15] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
